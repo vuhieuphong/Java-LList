@@ -214,4 +214,18 @@ public class SingleLList<T> {
 	 * (next1 != node2) { node2.next = next1; } } else { swapNodes(data2, data1); }
 	 * } }
 	 */
+	
+	public static void main(String[] args) {
+		SingleLList<Integer> list=new SingleLList<Integer>();
+		list.addBack(1);
+		System.out.println(list);
+		list.addBack(2);
+		System.out.println(list);
+		list.removeBack();
+		System.out.println(list);
+		list.removeBack();
+		System.out.println(list);
+		list.removeBack();
+		System.out.println(list);
+	}
 }
